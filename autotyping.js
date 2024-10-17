@@ -119,9 +119,9 @@ var AutoTyping = (function (e) {
   ]).default;
   
   
-  const exampleText = ['Developer', 'Designer'];
+  const exampleText = ['Developer', 'Engineer', 'Designer'];
   const exampleTyping = new AutoTyping('#text', exampleText, {
-      typeSpeed: 100,
+      typeSpeed: 200,
       deleteSpeed: 100,
       waitBeforeDelete: 2000,
       waitBetweenWords: 500,

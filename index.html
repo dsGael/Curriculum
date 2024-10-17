@@ -11,11 +11,10 @@
     <title>Portafolio</title>
   </head>
 
-  <body class="font-nunito">
+  <body class="font-nunito bg-gradient-to-t from-indigo-200 relative ">
     <!-- into section-->
     <div
-      class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 relative overflow-hidden"
-    >
+      class="h-1/2 lg:h-screen  relative overflow-hidden" >
       <!-- navbar-->
       <nav class="w-full fixed top-0 bg-white z-10">
         <div class="container mx-auto py-5 flex items-center justify-between">
@@ -31,22 +30,21 @@
             </li>
 
             <li class="hover:text-gray-500">
-              <a id="hLink" href="#">Sobre mí</a>
+              <a id="hLink" href="#aboutme">Sobre mí</a>
             </li>
             <li class="hover:text-gray-500">
-              <a id="hLink" href="#">Experiencia laboral</a>
+              <a id="hLink" href="#skills">Habilidades</a>
             </li>
             <li class="hover:text-gray-500">
-              <a id="hLink" href="#">Educación</a>
+              <a id="hLink" href="#experiencia">Experiencia </a>
             </li>
+            
             <li class="hover:text-gray-500">
-              <a id="hLink" href="#">Proyectos</a>
+              <a id="hLink" href="#portfolio">Proyectos</a>
             </li>
+            
             <li class="hover:text-gray-500">
-              <a id="hLink" href="#">Habilidades</a>
-            </li>
-            <li class="hover:text-gray-500">
-              <a href="#">Contacto</a>
+              <a href="#contact">Contacto</a>
             </li>
           </ul>
 
@@ -55,34 +53,7 @@
             <div class="w-6 h-0.5 bg-black"></div>
             <div class="w-6 h-0.5 bg-black"></div>
           </div>
-          <ul
-            id="menu"
-            class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center"
-          >
-            <li class="hover:text-gray-500"></li>
-            <li class="hover:text-gray-500">
-              <a href="#">Homepage</a>
-            </li>
-
-            <li class="hover:text-gray-500">
-              <a href="#">Sobre mí</a>
-            </li>
-            <li class="hover:text-gray-500">
-              <a href="#">Experiencia laboral</a>
-            </li>
-            <li class="hover:text-gray-500">
-              <a href="#">Educación</a>
-            </li>
-            <li class="hover:text-gray-500">
-              <a href="#">Proyectos</a>
-            </li>
-            <li class="hover:text-gray-500">
-              <a href="#">Habilidades</a>
-            </li>
-            <li class="hover:text-gray-500">
-              <a href="#">Contacto</a>
-            </li>
-          </ul>
+          
         </div>
       </nav>
       <!-- intro content-->
@@ -113,7 +84,333 @@
         <a class="bg-indigo-600 text-white rounded-md text-md px-3 py-2 font-semibold w-fit" href="#contact">contacto</a>
       </div>
     </div>
+    <div style="margin: 0 auto" class=" mt-14 grid grid-cols-4 max-w-[70%]  justify-items-center">
+      <!-- card -->
+      <a target="_blank" href="https://www.youtube.com/watch?v=jHWBFyZcLPg&ab_channel=unrandomnoreaciona" class="w-full max-w-52 h-40 items-center shadow-xl rounded-lg py-5  my-5 flex flex-col   bg-slate-100">
+        <img class="w-16" src="./img/youtube.svg" alt="" />
+        <h1 class=" font-medium text-lg dark:text-white">Videocurriculum</h1>
+      </a>
+
+      <a target="_blank" href="Gael_Humberto_Borchardt_Castellanos_Ingeniero_en_Sistemas_de_Informacion.pdf" download="Gael_Humberto_Borchardt_Castellanos_Ingeniero_en_Sistemas_de_Informacion.pdf"  class="w-full max-w-52 h-40 items-center shadow-xl rounded-lg py-5  my-5 flex flex-col   bg-slate-100">
+        <img class="w-16" src="./img/pdf.svg" alt="" />
+
+        <h1 class=" font-medium text-lg dark:text-white">CV</h1>
+      </a>
+
+      <a target="_blank" href="https://www.linkedin.com/in/gael-borchardt-46190b270/" class="w-full max-w-52 h-40 items-center shadow-xl rounded-lg py-5  my-5 flex flex-col   bg-slate-100">
+        <img class="w-16" src="./img/linkedin.svg" alt="" />
+        <h1 class=" font-medium text-lg dark:text-white"></h1>
+      </a>
+
+      <a target="_blank" href="https://github.com/dsGael" class="w-full max-w-52 h-40 items-center shadow-xl rounded-lg py-5  my-5 flex flex-col   bg-slate-100">
+        <img class="w-16" src="./img/github-light.svg" alt="" />
+        <h1 class=" font-medium text-lg dark:text-white"></h1>
+      </a>
+
+    </div>
+    <div id="aboutme" class="px-10 dark:bg-slate-900">
+      <div class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20">
+        <!-- left -->
+        <div class="relative">
+          <img class="h-1/4 absolute top-0 left-0 -z-10" src="./img/dots.png" alt="" />
+          <div class="h-full rounded-full overflow-hidden">
+            <img src="./img/portrait.png" alt="" />
+          </div>
+        </div>
+        <!-- right -->
+
+
+        
+
+
+        <div class="my-auto flex flex-col gap-3">
+          <h1 class="text-3xl  text-indigo-600 font-bold">SOBRE MÍ</h1>
+          
+          
+          <p class="max-w-[70%] text-2xl text-gray-600">
+          Estudiante de ingeniería en sistemas de información en la Universidad de Sonora
+          con experiencia en el desarrollo de aplicaciones web y en el manejo y análisis de
+          datos, obteniendo bases sólidas a lo largo de mi carrera en distintos lenguajes de
+          programación y ganando experiencia utilizando distintos Frameworks y tecnologías
+          actuales que me han ayudado a desarrollar mis habilidades en Frontend, Backend,
+          manejo de bases de datos y mejorando mis conocimientos en la ciencia de datos.
+          </p>
+          <br>
+          <h1 class="  p-3 text-3xl font-medium text-indigo-500">IDIOMAS</h1>
+          <div class="max-w-2/3">
+          <span class="bg-gray-200 text-gray-500 text-xl mx-3 px-2 py-2 rounded">Español</span>
+          <span class="bg-gray-200 text-gray-500 text-xl mx-3 px-2 py-2 rounded">Inglés</span>
+          <span class="bg-gray-200 text-gray-500 text-xl mx-3 px-2 py-2 rounded">Japonés</span>
+          </div>
+
+
+
+         
+      </div>
+    </div>
+  
+    <div id="services" class="dark:bg-slate-900">
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <h1 id="skills" class="text-3xl text-indigo-600 font-bold">SKILLS</h1>
+  
+          <p class="p-10 w-1/2 text-center text-2xl text-gray-600">
+            Habilidades en distintos lenguajes de programación, programas y frameworks además de contar con experiencia en
+            la utilización de bases de datos que mejoran el desarrollo de aplicaciones y sistemas .
+          </p>
+        </div>
+        <!-- bottom -->
+        <div class=" grid grid-cols-4 justify-items-center">
+          <!-- card -->
+          <div class="w-full max-w-52 h-40 items-center shadow-xl rounded-lg py-5  my-5 flex flex-col   bg-slate-100">
+            <img class="w-16" src="./img/python.svg" alt="" />
+            <h1 class=" font-medium text-lg dark:text-white">Python</h1>
+          </div>
+  
+          <div class="w-full max-w-52 h-40 items-center shadow-xl rounded-lg py-5  my-5 flex flex-col   bg-slate-100">
+            <img class="w-16" src="./img/java.svg" alt="" />
+            <h1 class=" font-medium text-lg dark:text-white">Java</h1>
+          </div>
+  
+          <div class="w-full max-w-52 h-40 items-center shadow-xl rounded-lg py-5  my-5 flex flex-col   bg-slate-100">
+            <img class="w-16" src="./img/javascript.svg" alt="" />
+            <h1 class=" font-medium text-lg dark:text-white">Javascript</h1>
+          </div>
+  
+          <div class="w-full max-w-52 h-40 items-center shadow-xl rounded-lg py-5  my-5 flex flex-col   bg-slate-100">
+            <img class="w-16" src="./img/react.svg" alt="" />
+            <h1 class=" font-medium text-lg dark:text-white">React</h1>
+          </div>
+  
+          <div class="w-full max-w-52 h-40 items-center shadow-xl rounded-lg py-5  my-5 flex flex-col   bg-slate-100">
+            <img class=" w-16" src="./img/cypress.svg" alt="" />
+            <h1 class=" font-medium text-lg dark:text-white">Cypress</h1>
+          </div>
+  
+          <div class="w-full max-w-52 h-40 items-center shadow-xl rounded-lg py-5  my-5 flex flex-col   bg-slate-100">
+            <img class="w-16" src="./img/postgresql.svg" alt="" />
+            <h1 class=" font-medium text-lg dark:text-white">PostgreSQL</h1>
+          </div>
+  
+          <div class="w-full max-w-52 h-40 items-center shadow-xl rounded-lg py-5  my-5 flex flex-col   bg-slate-100">
+            <img class="w-16" src="./img/nodejs.svg" alt="" />
+            <h1 class=" font-medium text-lg dark:text-white">Node.js</h1>
+          </div>
+  
+          <div class="w-full max-w-52 h-40 items-center shadow-xl rounded-lg py-5  my-5 flex flex-col   bg-slate-100">
+            <img class="w-16" src="./img/git.svg" alt="" />
+            <h1 class=" font-medium text-lg dark:text-white">Git</h1>
+          </div>
+  
+  
+  
+        </div>
+        <!-- works -->
+        <div  class="py-40 dark:bg-slate-900">
+          <div class="container mx-auto">
+            <!-- top -->
+            <div class="flex flex-col gap-3 items-center">
+              <h1 class="text-3xl text-indigo-600 font-bold">PORTFOLIO</h1>
+              <br>
+              <h1 id="experiencia" class="text-3xl font-bold dark:text-white">Experiencia </h1>
+  
+              <div class="px-10 dark:bg-slate-900">
+                <div class="">
+  
+                 
+                  <!-- right -->
+                  <div class="grid place-content-center grid-cols-2 row-span-5 gap-4 gap-y-10">
+  
+                    <!-- left -->
+                    <div class="flex   flex-auto justify-end ">
+                      <img class=" h-40 w-40 rounded-md align-middle " src="./img/csipro.svg" alt="">
+    
+                    </div>
+                    <div class="border-l-10 border-indigo-600 border-spacing-8 grid-content-align-center ">
+                      <h2 class="mt-10 mx-10 text-2xl text-gray-600 ">Laboratorio CSI PRO</h2>
+                      <h3 class="mx-10 mb-10 text-md text-gray-500">Octubre 2023 - Actualidad </h3>
+                      <p class="mx-10 w-5/6 text-xl text-left">Miembro Activo del Laboratorio CSI Pro, siendo participe en muchas
+                        de las actividades generales que se realizan, teniendo como principal proyecto Braintive,
+                        donde funjo como analista de datos y desarrollador del proyecto..</p>
+  
+                        
+                    </div>
+                  </div>
+                  <div class="border-l-10 border-indigo-600 border-spacing-8 ">
+                    <center><h2 style="margin:0 auto;" class=" text-2xl text-gray-500"></h2></center>
+                    <p class=" text-lg text-center"></p>
+                      
+                  </div>
+                  
+                  
+                </div>
+              </div>
+  
+  
+              <h1 id="portfolio" class="text-3xl font-bold dark:text-white">Proyectos</h1>
+              <br
+              <div class="px-10 dark:bg-slate-900">
+                <div class="grid place-content-center grid-cols-2 row-span-5 gap-4 gap-y-10">
+  
+                  <!-- left -->
+                  <div class="flex   flex-auto justify-end ">
+                    <img class=" h-96 w-auto rounded-md" src="./img/pestañeo.jpg" alt="">
+  
+                  </div>
+                  <div class="border-l-10 border-indigo-600 border-spacing-8 grid-content-align-center ">
+                    <h2 class="mt-10 mx-10 text-2xl text-gray-600 ">Pestañeo</h2>
+                    <h3 class="mx-10 mb-10 text-md text-gray-500">Octubre 2024 – Noviembre 2024 </h3>
+                    <p class="mx-10 w-5/6 text-xl text-left">Aplicación web para el manejo de citas de un Lash & Nails boutique, permite organizar
+                      y administrar las citas, con el fin de automatizar el proceso y evitar problemas,
+                      desarrollada utilizando React, Express.js y TailwindCSS..</p>
+
+                      <div class="my-auto mx-10 py-10">
+                      <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">React + Vite</span>
+                      <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">Express.js</span>
+                      <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">TailwindCSS</span>
+                      <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">MySQL</span>
+                      </div>
+                  </div>
+                  <!-- right -->
+                 
+                  <div class="flex   flex-auto justify-end ">
+                    <img class=" h-96 w-auto rounded-md" src="./img/salonbaza.jpg" alt="">
+  
+                  </div>
+                  <!-- right -->
+                  <div class="border-l-10 border-indigo-600 border-spacing-8 grid-content-align-center ">
+                    <h2 class="mt-10 mx-10 text-2xl text-gray-600 ">Salon BAZA</h2>
+                    <h3 class="mx-10 mb-10 text-md text-gray-500">Agosto 2024 – Noviembre 2024 </h3>
+                    <p class="mx-10 w-5/6 text-xl text-left">Sistema de manejo de citas e inventario para un salón de belleza, desarrollado
+                      utilizando React + Vite, Express.js y TailwindCSS, con el objetivo principal de evitar la
+                      pérdida de información.
+                      </p>
+
+                      <div class="my-auto mx-10 py-10">
+                        <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">React + Vite</span>
+                        <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">Express.js</span>
+                        <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">TailwindCSS</span>
+                        <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">PostgreSQL</span>
+                        </div>
+                  </div>
+                  
+                  <div class="flex flex-auto justify-end ">
+                    <img class=" h-96 w-auto rounded-md" src="./img/braintive.jpg" alt="">
+  
+                  </div> 
+                  <div class="border-l-10 border-indigo-600 border-spacing-8 grid-content-align-center ">
+                    <h2 class="mt-10 mx-10 text-2xl text-gray-600 ">Braintive</h2>
+                    <h3 class="mx-10 mb-10 text-md text-gray-500">Octubre 2023 - Actualidad </h3>
+                    <p class="mx-10 w-5/6 text-xl text-left">Proyecto en conjunto con el laboratorio CSI Pro que cuenta con el objetivo de
+                      desarrollar una firma electrónica basada en neurociencia utilizando distintas
+                      tecnologías como Scikit, Pandas, Matplotlib y SVM para el procesamiento de datos y el
+                      análisis y clasificación de los mismos.</p>
+
+                      <div class="my-auto mx-10 py-10">
+                        <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">Python</span>
+                        <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">Scikit</span>
+                        <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">Matplotlib</span>
+                        <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">Pandas</span>
+                        </div>
+                  </div>
+                  <!-- right -->
+                  
+                  <div class="flex   flex-auto justify-end ">
+                    <img class=" h-96 w-auto rounded-md"src="./img/revistas.jpg" alt="">
+  
+                  </div>
+                  <!-- right -->
+                  <div class="border-l-10 border-indigo-600 border-spacing-8 grid-content-align-center ">
+                    <h2 class="mt-10 mx-10 text-2xl text-gray-600 ">Catálogo de Revistas</h2>
+                    <h3 class="mx-10 mb-10 text-md text-gray-500">Junio – 2024 </h3>
+                    <p class="mx-10 w-5/6 text-xl text-left">Proyecto web diseñado para la fácil exploración de revistas conseguidas a través de un
+                      Scrapper en Python, utilizando frameworks como Jinja y Flask para manejar las
+                      plantillas.</p>
+
+                      <div class="my-auto mx-10 py-10">
+                        <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">Python</span>
+                        <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">Flask</span>
+                        <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">TailwindCSS</span>
+                        <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">Jinja</span>
+                        </div>
+                  </div>
+                  
+                  <div class="flex flex-auto justify-end ">
+                    <img class=" h-96 w-auto rounded-md" src="./img/mcqueen.jpg" alt="">
+  
+                  </div>
+                  <div class="border-l-10 border-indigo-600 border-spacing-8 grid-content-align-center ">
+                    <h2 class="mt-10 mx-10 text-2xl text-gray-600 ">McQueen Rentals - CRUD</h2>
+                    <h3 class="mx-10 mb-10 text-md text-gray-500">Noviembre 2023 </h3>
+                    <p class="mx-10 w-5/6 text-xl text-left">Aplicación de escritorio realizada con Java swing y MySQL encargada del registro de
+                      ventas y manejo de reservaciones e inventario para la renta de carros, así como la
+                      generación de reportes.</p>
+
+                      <div class="my-auto mx-10 py-10">
+                      <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">Java </span>
+                      <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">Java Swing</span>
+                      <span class="bg-gray-200 text-gray-500 text-lg mx-3 px-2 py-2 rounded">Postgresql</span>
+                      </div>
+                  </div>
+                  <!-- right -->
+                 
+                </div>
+              </div>
+  
+            </div>
+            <!-- bottom -->
+            <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+              <!-- card -->
+  
+  
+  
+            </div>
+          </div>
+        </div>
+  
+        <!-- contact -->
+        <div id="contact" class="dark:bg-slate-900">
+          <div class="container mx-auto">
+            <!-- top -->
+            <div class="flex flex-col gap-3 mb-32 items-center">
+              <h1 class="text-indigo-600 text-3xl font-bold">CONTACT</h1>
+              <h1 class="text-3xl dark:text-white"></h1>
+              <p class="text-xl">
+                gaelborchardt@gmail.com
+              </p >
+              <p class="text-xl">
+                6442597572
+              </p>
+              <p class="text-xl">
+                CSI PRO - 5J 205, Universidad de Sonora
+              </p>
+              <p class="text-xl">
+                Hermosillo, Sonora
+              </p>
+            </div>
+            <!-- bottom -->
+  
+          </div>
+        </div>
+        <!-- footer -->
+        <div class="w-full bg-gray-800">
+          <div class="container mx-auto py-5 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <img class="w-8" src="./img/logo.png" alt="" />
+              <span class="text-2xl font-bold text-white">Portafolio.</span>
+            </div>
+            <span class="md:block font-medium text-white">.</span>
+            <div class="flex gap-2">
+              <img class="w-4 cursor-pointer" src="./img/facebook.png" alt="" />
+              <img class="w-4 cursor-pointer" src="./img/instagram.png" alt="" />
+              <img class="w-4 cursor-pointer" src="./img/twitter.png" alt="" />
+              <img class="w-4 cursor-pointer" src="./img/linkedin.png" alt="" />
+            </div>
+          </div>
+        </div>
     <script src="./app.js"></script>
     <script src="./autotyping.js"></script>
+
   </body>
 </html>
